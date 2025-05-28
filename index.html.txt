@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+  </header>
+
+  <section class="about-me">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm [Your Name], a student of mechanical engineering with a passion for innovation, automation, and entrepreneurship. 
+      I've worked on projects like a gearless power transmitter, a Bluetooth-controlled car, and a conveyor belt object sorter using Arduino.
+      I'm excited to learn more and bring creative ideas to life!
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+  </footer>
+</body>
+</html>
