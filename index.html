@@ -2,46 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abdul Haye</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f7fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      color: #222;
+      background-color: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
     }
+
     header {
       background-color: #004080;
-      color: white;
-      padding: 50px 20px;
+      color: #fff;
+      padding: 30px 0;
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 3.5rem;
-      font-weight: normal;
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 15px;
+      border: 4px solid white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
     }
-    main {
-      max-width: 800px;
+
+    .about-container {
+      max-width: 900px;
       margin: 40px auto;
-      background: white;
-      padding: 30px 40px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 30px 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
-    .subheading {
+
+    .about-container h2 {
       color: #004080;
-      font-size: 2rem;
       margin-bottom: 20px;
-      text-align: left;
-      border-left: 5px solid #004080;
-      padding-left: 15px;
     }
-    p {
+
+    .about-container p {
+      margin-bottom: 20px;
       font-size: 18px;
-      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -49,16 +61,23 @@
 
   <header>
     <h1>Abdul Haye</h1>
+    <img src="profile.jpg" alt="Abdul Haye" class="profile-pic" />
   </header>
 
   <main>
-    <div class="subheading">About Me</div>
-    <p>I am a Mechanical Engineering student at UET Taxila, where I am developing a strong foundation in both theoretical and practical aspects of engineering. My primary interests lie in design, automotive engineering, and robotics—fields that allow me to combine creativity with technical expertise to solve real-world problems.</p>
+    <div class="about-container">
+      <h2>About Me</h2>
+      <p>I am a Mechanical Engineering student at UET Taxila, where I am developing a strong foundation in both theoretical and practical aspects of engineering. My primary interests lie in design, automotive engineering, and robotics—fields that allow me to combine creativity with technical expertise to solve real-world problems.</p>
 
-    <p>In my studies, I have gained a fundamental understanding of SOLIDWORKS, which has enabled me to translate design concepts into 3D models and enhance my ability to visualize complex systems. Additionally, I have a working knowledge of C++ programming, which I use to explore the computational side of engineering, from simple automations to supporting logic-based design projects. I also have a strong command of ENGINEERING DRAWING, which has further refined my ability to represent ideas and designs with precision and clarity, an essential skill in the engineering field.</p>
+      <p>In my studies, I have gained a fundamental understanding of SOLIDWORKS, which has enabled me to translate design concepts into 3D models and enhance my ability to visualize complex systems. Additionally, I have a working knowledge of C++ programming, which I use to explore the computational side of engineering, from simple automations to supporting logic-based design projects. I also have a strong command of ENGINEERING DRAWING, which has further refined my ability to represent ideas and designs with precision and clarity, an essential skill in the engineering field.</p>
 
-    <p>As I progress in my degree, I am eager to deepen my skills in these areas, learn from industry professionals, and ultimately contribute to projects that push the boundaries of engineering innovation. I'm always open to connecting with others who share my passion for engineering and design.</p>
+      <p>As I progress in my degree, I am eager to deepen my skills in these areas, learn from industry professionals, and ultimately contribute to projects that push the boundaries of engineering innovation. I'm always open to connecting with others who share my passion for engineering and design.</p>
+    </div>
   </main>
+
+  <footer>
+    &copy; 2025 Abdul Haye. All rights reserved.
+  </footer>
 
 </body>
 </html>
