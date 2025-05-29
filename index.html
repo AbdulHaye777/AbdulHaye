@@ -2,111 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Abdul Haye</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Haye Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f2f5;
-      color: #333;
-      line-height: 1.6;
+      background-color: black;
     }
-
-    header {
-      background-color: #004080;
-      color: #fff;
-      padding: 30px 0;
-      text-align: center;
-    }
-
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      margin-top: 15px;
-      border: 4px solid white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    }
-
-    .about-container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 30px 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .about-container h2 {
-      color: #004080;
-      margin-bottom: 20px;
-    }
-
-    .about-container p {
-      margin-bottom: 20px;
-      font-size: 18px;
-    }
-
-    /* Contact Section Styles */
-    .contact-container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 30px 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .contact-container h2 {
-      color: #004080;
-      margin-bottom: 20px;
-    }
-
-    .contact-container p {
-      margin-bottom: 20px;
-      font-size: 18px;
-    }
-
-    .contact-container a {
-      color: #004080;
-      text-decoration: none;
-    }
-
-    .contact-container a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background-color: #eee;
-      font-size: 14px;
+    .hero-bg {
+      background-image: url('abdul-hero.jpg'); /* Replace with your own image */
+      background-size: cover;
+      background-position: center;
     }
   </style>
 </head>
-<body>
+<body class="text-white font-sans">
 
-  <header>
-    <h1>Abdul Haye</h1>
-    <img src="profile.jpg" alt="Abdul Haye" class="profile-pic" />
+  <!-- Navigation -->
+  <header class="fixed w-full z-50 bg-black bg-opacity-50 backdrop-blur">
+    <nav class="flex items-center justify-between p-4 max-w-6xl mx-auto">
+      <h1 class="text-2xl font-bold text-white">Alime<span class="text-pink-500">.</span></h1>
+      <ul class="flex space-x-6">
+  <li><a href="#" class="hover:text-pink-500">About Me</a></li>
+  <li><a href="#" class="hover:text-pink-500">Projects</a></li>
+  <li><a href="#" class="hover:text-pink-500">Certifications</a></li>
+  <li><a href="#" class="hover:text-pink-500">Education</a></li>
+  <li><a href="#" class="hover:text-pink-500">Contact</a></li>
+</ul>
+    </nav>
   </header>
 
-  <main>
-    <div class="about-container">
-      <h2>About Me</h2>
-      <p>I am a Mechanical Engineering student at UET Taxila, where I am developing a strong foundation in both theoretical and practical aspects of engineering. My primary interests lie in design, automotive engineering, and robotics—fields that allow me to combine creativity with technical expertise to solve real-world problems.</p>
-
-      <p>In my studies, I have gained a fundamental understanding of SOLIDWORKS, which has enabled me to translate design concepts into 3D models and enhance my ability to visualize complex systems. Additionally, I have a working knowledge of C++ programming, which I use to explore the computational side of engineering, from simple automations to supporting logic-based design projects. I also have a strong command of ENGINEERING DRAWING, which has further refined my ability to represent ideas and designs with precision and clarity, an essential skill in the engineering field.</p>
-
-      <p>As I progress in my degree, I am eager to deepen my skills in these areas, learn from industry professionals, and ultimately contribute to projects that push the boundaries of engineering innovation. I'm always open to connecting with others who share my passion for engineering and design.</p>
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center hero-bg">
+    <div class="text-center max-w-2xl px-6">
+      <h2 class="text-pink-300 text-3xl mb-2 font-semibold">Hello</h2>
+      <h1 class="text-yellow-300 text-5xl font-bold mb-4">I'm Abdul Haye</h1>
+      <p class="text-sm text-gray-300 mb-6">
+        I photograph very instinctively. I see how it is taken like that. I do not follow certain styles, philosophies or teachers.
+      </p>
+      <a href="mailto:hello.alime@gmail.com" class="inline-block border border-pink-500 text-white px-6 py-2 rounded hover:bg-pink-500 transition">
+        Get A Quote
+      </a>
     </div>
-  </main>
-
-  <footer>
-    &copy; 2025 Abdul Haye. All rights reserved.
-  </footer>
+  </section>
 
 </body>
 </html>
